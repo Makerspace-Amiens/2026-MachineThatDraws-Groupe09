@@ -21,6 +21,8 @@ L'objectif est simple, on veut que la machine soit capable de reproduire le dess
 Nous nous sommes partagés les tâches:
 - Assemblage: Chams-Eddin, Etienne, Ilan, Abel
 - Modélisation: Abel, Chams-Eddin, Ilan, Ambre
+- Electricité: Ilan et Chams-Eddin
+- Kicad: Ambre et Abel
 - Code: Etienne, Ambre
 - Site MarkeDown: Etienne, Ambre
 
