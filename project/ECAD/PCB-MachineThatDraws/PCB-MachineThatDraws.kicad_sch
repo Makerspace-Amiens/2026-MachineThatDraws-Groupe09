@@ -6180,7 +6180,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 200.66 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -7440,7 +7440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 261.62 127 0)
 			(hide yes)
 			(show_name no)
