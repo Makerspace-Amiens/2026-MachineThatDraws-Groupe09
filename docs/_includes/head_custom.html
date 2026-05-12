@@ -1,24 +1,33 @@
 <style>
   /* --- 1. L'AMBIANCE GÉNÉRALE (Mode Sombre) --- */
-  html, body, .main, .main-header, .main-content, .main-content-wrap, .site-header {
+  html, body {
     background-color: #0f172a !important; 
     color: #e2e8f0 !important; 
+    /* Forcer l'affichage vertical de la page entière */
+    display: block !important; 
+  }
+  
+  .main, .main-header, .main-content, .main-content-wrap, .site-header {
+    background-color: #0f172a !important; 
   }
 
-  /* --- 2. LE MENU (Transformé en Top Bar) --- */
+  /* --- 2. LE MENU (Top Bar) --- */
   .side-bar {
     background-color: #020617 !important; 
-    border-bottom: 1px solid #1e293b; /* La ligne de séparation passe en bas */
-    border-right: none !important; /* On retire l'ancienne ligne verticale */
+    border-bottom: 1px solid #1e293b !important; 
+    border-right: none !important; 
     width: 100% !important;
     max-width: 100% !important;
     height: auto !important;
-    display: flex;
-    align-items: center;
-    justify-content: space-between; /* Sépare le titre à gauche et le menu à droite */
-    padding: 10px 30px;
-    position: relative; 
-    z-index: 1000; /* Garde le menu au-dessus du reste */
+    position: relative !important; 
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: flex-start !important; /* Aligne tout à gauche par défaut */
+    padding: 0 30px !important;
+    /* CRUCIAL : Empêche la barre de couper les menus déroulants */
+    overflow: visible !important; 
+    z-index: 9999 !important; 
   }
 
   /* --- 3. LES ACCENTS (Titre) --- */
@@ -27,112 +36,114 @@
     font-weight: bold;
     text-transform: uppercase; 
     letter-spacing: 1px; 
-    margin: 0;
+    margin: 0 30px 0 0 !important; /* Espace entre le titre et les boutons */
+    white-space: nowrap !important;
   }
 
+  /* Cache le bouton de menu mobile natif s'il apparait */
+  .site-button { display: none !important; }
+
   /* --- 4. NAVIGATION HORIZONTALE (Boutons du haut) --- */
-  /* Le menu principal devient une ligne */
+  .navigation {
+    overflow: visible !important; /* CRUCIAL */
+  }
+
   .nav-list {
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-    padding: 0;
-    align-items: center;
+    display: flex !important;
+    flex-direction: row !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    align-items: center !important;
+    overflow: visible !important;
   }
 
   .nav-list-item {
-    position: relative; /* Indispensable pour que le sous-menu s'attache à ce bouton */
-    list-style: none;
-    margin: 0 5px;
+    position: relative !important; 
+    list-style: none !important;
+    margin: 0 !important;
   }
 
-  /* Liens de premier niveau */
+  /* Liens de premier niveau (Boutons principaux) */
   .nav-list-item > .nav-list-link {
     color: #94a3b8 !important; 
-    padding: 10px 15px !important;
-    display: block;
-    text-decoration: none;
+    padding: 20px 15px !important;
+    display: block !important;
+    text-decoration: none !important;
     transition: all 0.2s ease;
-    border-left: none !important; /* Reset de l'ancien style */
+    border-left: none !important; 
+    white-space: nowrap !important; /* Empêche le texte de revenir à la ligne */
   }
 
-  /* Survol des boutons du haut : Animation de la bordure en BAS */
+  /* Survol des boutons du haut */
   .nav-list-item > .nav-list-link:hover,
   .nav-list-item > .nav-list-link.active {
     color: #38bdf8 !important;
-    border-bottom: 2px solid #38bdf8; 
     background: transparent !important;
+    /* On utilise un box-shadow au lieu d'un border pour éviter que la barre saute */
+    box-shadow: inset 0 -3px 0 0 #38bdf8 !important;
   }
 
-  /* --- 5. SOUS-CATÉGORIES (Dropdown) --- */
-  /* On cache les sous-menus par défaut */
-  .nav-list-item .nav-list {
-    display: none;
-    position: absolute;
-    top: 100%; /* Place le sous-menu juste sous le bouton */
-    left: 0;
+  /* --- 5. SOUS-CATÉGORIES (Dropdowns) --- */
+  .nav-list-item > .nav-list {
+    display: none !important; /* Caché par défaut */
+    position: absolute !important;
+    top: 100% !important; 
+    left: 0 !important;
     background-color: #020617 !important;
-    min-width: 220px;
-    flex-direction: column; /* Les sous-menus redeviennent verticaux */
-    border: 1px solid #1e293b;
-    border-top: 2px solid #38bdf8; /* Petite ligne cyan pour lier le bouton au menu */
-    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
-    padding: 10px 0;
-    z-index: 1001;
+    min-width: 220px !important;
+    flex-direction: column !important; /* Les sous-menus redeviennent verticaux */
+    border: 1px solid #1e293b !important;
+    border-top: 3px solid #38bdf8 !important; 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5) !important;
+    padding: 10px 0 !important;
+    z-index: 10000 !important;
   }
 
-  /* Affichage du sous-menu au survol de la souris */
+  /* Affichage du sous-menu au survol */
   .nav-list-item:hover > .nav-list {
-    display: flex;
-  }
-
-  /* Style des liens à l'intérieur du sous-menu */
-  .nav-list-item .nav-list .nav-list-item {
-    width: 100%;
-    margin: 0;
-  }
-
-  .nav-list-item .nav-list .nav-list-link {
-    padding: 10px 20px !important;
-    border-bottom: none !important; 
-  }
-
-  /* Survol dans les sous-menus : On garde ton animation avec la barre à GAUCHE */
-  .nav-list-item .nav-list .nav-list-link:hover,
-  .nav-list-item .nav-list .nav-list-link.active {
-    color: #38bdf8 !important;
-    border-left: 2px solid #38bdf8 !important;
-    padding-left: 25px !important; /* Le décalage visuel */
-    background-color: #0f172a !important; /* Fond un peu plus clair pour contraster */
-  }
-
-  /* --- 6. TYPOGRAPHIE, CONTENU & RESET LAYOUT --- */
-  h1, h2, h3, h4, h5, h6 {
-    color: #f8fafc !important;
-  }
-  
-  .main-content a {
-    color: #38bdf8 !important;
-    text-decoration: underline;
-  }
-
-  .search, .search-input { display: none !important; }
-  .main-header, .site-header { border-bottom: none !important; }
-  
-  code {
-    background-color: #1e293b !important; 
-    color: #38bdf8 !important;
-  }
-
-  /* Sécurité : Si le thème utilisait une grille verticale, on force le contenu principal 
-     à se placer correctement SOUS la nouvelle barre du haut */
-  .document, #app, .page-wrap {
     display: flex !important;
-    flex-direction: column !important;
   }
-  
-  .main {
-    margin-left: 0 !important; /* Retire l'espace laissé vide par l'ancienne barre latérale */
+
+  /* Forcer le style des sous-menus */
+  .nav-list-item > .nav-list > .nav-list-item {
+    display: block !important;
     width: 100% !important;
   }
+
+  .nav-list-item > .nav-list .nav-list-link {
+    padding: 10px 20px !important;
+    box-shadow: none !important; /* Retire le soulignement du menu principal */
+  }
+
+  /* Survol dans les sous-menus : Barre néon à GAUCHE */
+  .nav-list-item > .nav-list .nav-list-link:hover,
+  .nav-list-item > .nav-list .nav-list-link.active {
+    color: #38bdf8 !important;
+    border-left: 2px solid #38bdf8 !important;
+    padding-left: 25px !important; 
+    background-color: #0f172a !important; 
+  }
+
+  /* --- 6. RÉINITIALISATION DU CONTENU PRINCIPAL --- */
+  /* On s'assure que le contenu se place bien SOUS la barre, sans marges fantômes */
+  .main {
+    margin-left: 0 !important; 
+    max-width: 100% !important;
+    width: 100% !important;
+    display: block !important;
+  }
+  
+  .main-content {
+    max-width: 1200px !important; /* Garde le texte lisible */
+    margin: 0 auto !important; /* Centre le contenu */
+    padding: 40px 20px !important;
+  }
+
+  /* --- 7. TYPOGRAPHIE ET AUTRES ÉLÉMENTS --- */
+  h1, h2, h3, h4, h5, h6 { color: #f8fafc !important; }
+  .main-content a { color: #38bdf8 !important; text-decoration: underline; }
+  .search, .search-input { display: none !important; }
+  .main-header, .site-header { border-bottom: none !important; display: none !important; }
+  code { background-color: #1e293b !important; color: #38bdf8 !important; }
+
 </style>
