@@ -24,6 +24,9 @@ Electronique:
 - 1 Câble barret jack
 - 1 switch fin de course
 - 1 Stepper 17HE12-1204S
+- BAU
+- machine impression
+- découpe laser
   
 Méchanique:
 - Courroie GT2 6mm - Mètre linéaire

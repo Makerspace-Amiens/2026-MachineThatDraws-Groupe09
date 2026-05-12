@@ -19,7 +19,7 @@ Bienvenue dans la documentation du projet Machine That Draw du groupe 9. Ce site
 
 ## À propos du Projet
 
-L'objectif de notre projet est de concevoir une machine capable de réaliser des dessins de manière autonome. Nous avons opté pour une architecture cartésienne : en utilisant un système de coordonnées basé sur des axes perpendiculaires, elle permet d'allier simplicité de construction et haute précision.hjqiyzvcfugy
+L'objectif de notre projet est de concevoir une machine capable de réaliser des dessins de manière autonome. Nous avons opté pour une architecture cartésienne : en utilisant un système de coordonnées basé sur des axes perpendiculaires, elle permet d'allier simplicité de construction et haute précision.
 
 ## Vidéo explicative
 
