@@ -6,7 +6,6 @@ title: Conception et prototypage
 
 ## Conception et prototypage
 
-# Support moteur
 
 En modélisant le support moteur, nous avons pensé à tout. des reliefs pour ancrer solidement le moteur et le châssis, mais aussi un passage dédié à la barre. Pour garantir la stabilité, nous avons ajouté un emplacement pour une vis qui viendra verrouiller cette barre définitivement.
 
