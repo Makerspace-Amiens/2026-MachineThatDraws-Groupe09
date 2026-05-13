@@ -7,7 +7,7 @@ nav_order: 2
 
 # Assemblage
 
-Après la préparation des matériaux, l'étape suivante est l'assemblage.
+L'assemblage 
 
 ## Étapes d'Assemblage
 
@@ -19,9 +19,9 @@ Après la préparation des matériaux, l'étape suivante est l'assemblage.
 
 - Il faut bien regardé si les courroies sont bien tendu et droite, c'est le plus importants
 - Il faut vérifiez la stabilité et la solidité de l'assemblage.
--  
+- Tester si les axes font une ligne droite.
 
 ## Problèmes Communs et Solutions
 
 - Courroie pas droite, on a donc modifier les pièces de maintien de courroie, et hauteurs de plusieurs pièces
-- 
+- Pieces des maintients de courroies mal conceptionné.
