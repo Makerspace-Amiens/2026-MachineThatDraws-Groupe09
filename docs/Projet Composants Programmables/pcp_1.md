@@ -17,6 +17,6 @@ La carte intégrera :
 
 Voici le test de l'écran:
 
-<video width="50%" height="50%" controls>
-        <source src="images/videotestecran.MOV" type="videotestecran/MOV" />
+<video width="100%" height="100%" controls>
+        <source src="images/videotestecrans.MOV" type="videotestecrans/MOV" />
 </video>
