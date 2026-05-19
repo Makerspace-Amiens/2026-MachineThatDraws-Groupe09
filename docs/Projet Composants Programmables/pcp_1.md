@@ -15,3 +15,8 @@ La carte intégrera :
 - Connecteurs pour moteurs, alimentation et extension
 - Gestion des alimentations
 
+Voici le test de l'écran:
+
+<video width="50%" height="50%" controls>
+        <source src="images/videotestecran.MOV" type="videotestecran/MOV" />
+</video>
