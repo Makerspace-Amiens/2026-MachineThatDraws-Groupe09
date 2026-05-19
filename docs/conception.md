@@ -47,7 +47,8 @@ Il s'agit de la pièce centrale du mécanisme. Elle sert de support au servomote
 
 <iframe height="300" width="100%" src="https://modelembedder.net/embed?did=f36f8aaf3489bbdbfa2a3f64&wvm=v&wvmid=4f0e26a5f2211199a2997596&eid=2434582db11078e3390250df&elementType=PARTSTUDIO" frameborder="0"></iframe>
 
+Cet élément sert de système de fixation. Il garantit la stabilité et l'immobilisation du support lors de l'exécution du tracé.
 
-
+<iframe height="300" width="100%" src="https://modelembedder.net/embed?did=f36f8aaf3489bbdbfa2a3f64&wvm=v&wvmid=4f0e26a5f2211199a2997596&eid=f57adb6eafa2c495691a71a9&elementType=PARTSTUDIO" frameborder="0"></iframe>
 
 
