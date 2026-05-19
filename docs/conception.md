@@ -40,8 +40,12 @@ Cette pièce assure le maintien des rails de l’axe X. Il s’agit d’un compo
 
 Voici la pièce maîtresse pour le tracé : le porte-stylo. Son rôle est simple mais crucial : maintenir fermement le stylo en position verticale. Elle a été conçue pour empêcher le crayon de trembler ou de glisser pendant que la machine dessine.
 
-<iframe height="300" width="100%" src="https://cad.onshape.com/documents/f36f8aaf3489bbdbfa2a3f64/v/b0276e37f60861a56ffae9a9/e/6b6bdf7f7fd5b89646a3474e?showReturnToWorkspaceLink=true" frameborder="0"></iframe>
+<iframe height="300" width="100%" src="https://modelembedder.net/embed?did=f36f8aaf3489bbdbfa2a3f64&wvm=v&wvmid=4f0e26a5f2211199a2997596&eid=6b6bdf7f7fd5b89646a3474e&elementType=PARTSTUDIO" frameborder="0"></iframe>
 
+
+Il s'agit de la pièce centrale du mécanisme. Elle sert de support au servomoteur de levage et intègre l'ensemble des systèmes annexes du stylo.
+
+<iframe height="300" width="100%" src="https://modelembedder.net/embed?did=f36f8aaf3489bbdbfa2a3f64&wvm=v&wvmid=4f0e26a5f2211199a2997596&eid=2434582db11078e3390250df&elementType=PARTSTUDIO" frameborder="0"></iframe>
 
 
 
