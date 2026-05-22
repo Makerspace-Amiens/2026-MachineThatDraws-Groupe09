@@ -15,14 +15,8 @@ La carte intégrera :
 - Connecteurs pour moteurs, alimentation et extension
 - Gestion des alimentations
 
-PCB de la carte:
-
-![Imagepcb](images/Capture d’écran 2026-05-22 à 13.40.58.png)
-
 Voici le test de l'écran:
 
 <video width="100%" height="100%" controls>
         <source src="images/videotestecrans.MOV" type="videotestecrans/MOV" />
 </video>
-
-
