@@ -21,5 +21,5 @@ Voici le pcb de notre carte électronique:
 Voici le test de l'écran:
 
 <video width="50%" height="50%" controls>
-        <source src="docs/images/videotestecrans.mp4" type="video/mp4" />
+        <source src="../images/videotestecrans.mp4" type="video/mp4" />
 </video>
