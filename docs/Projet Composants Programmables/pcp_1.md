@@ -16,7 +16,7 @@ La carte intégrera :
 - Gestion des alimentations
 
 Voici le pcb de notre carte électronique:
-![Image projet](docs/images/pcb.png)
+![Image projet](../images/pcb.png)
 
 Voici le test de l'écran:
 
