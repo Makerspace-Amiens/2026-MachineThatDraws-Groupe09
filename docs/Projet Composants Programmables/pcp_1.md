@@ -15,8 +15,8 @@ La carte intégrera :
 - Connecteurs pour moteurs, alimentation et extension
 - Gestion des alimentations
 
-Voici le pcb de notre carte électronique
-![Image projet](images/dessin.jpg)
+Voici le pcb de notre carte électronique:
+![Image projet](images/pcb.png)
 
 Voici le test de l'écran:
 
