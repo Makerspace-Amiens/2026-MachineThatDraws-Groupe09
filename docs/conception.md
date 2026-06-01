@@ -52,3 +52,7 @@ Cet élément sert de système de fixation. Il garantit la stabilité et l'immob
 <iframe height="300" width="100%" src="https://modelembedder.net/embed?did=f36f8aaf3489bbdbfa2a3f64&wvm=v&wvmid=4f0e26a5f2211199a2997596&eid=f57adb6eafa2c495691a71a9&elementType=PARTSTUDIO" frameborder="0"></iframe>
 
 
+Ce composant, couplé au servomoteur, assure l'élévation de l'outil de traçage. Ce mécanisme de levage est essentiel : il désengage la pointe du stylo de la surface de travail, autorisant ainsi les déplacements à vide de la machine.
+
+<iframe height="300" width="100%" src="https://modelembedder.net/embed?did=f36f8aaf3489bbdbfa2a3f64&wvm=v&wvmid=773935741690cad0a1664e7e&eid=57bff2e5da1b9d31d57f0d4a&elementType=PARTSTUDIO" frameborder="0"></iframe>
+
