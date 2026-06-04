@@ -23,5 +23,10 @@ L'assemblage
 
 ## Problèmes Communs et Solutions
 
-- Courroie pas droite, on a donc modifier les pièces de maintien de courroie, et hauteurs de plusieurs pièces
-- Pieces des maintients de courroies mal conceptionné.
+- Problème d'alignement de la courroie : nous avons dû modifier les pièces de maintien ainsi que la hauteur de plusieurs autres composants pour la redresser.
+
+- Défaut de conception des fixations : les supports initiaux de la courroie ont été repensés et agrandis. Cela nous a permis d'ajouter de nouveaux points de vissage pour ajuster l'angle et garantir une installation parfaitement droite.
+
+- Tension insuffisante : le relâchement de la courroie entraînait des dysfonctionnements et un manque de précision lors des déplacements de la machine.
+
+- tete frésé utilisé au lieu des tete bombé
