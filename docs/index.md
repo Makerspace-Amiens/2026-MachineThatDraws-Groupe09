@@ -12,7 +12,7 @@ Bienvenue dans la documentation du projet Machine That Draw du groupe 9. Ce site
 [Notre projet sur Onshape](https://cad.onshape.com/documents/f36f8aaf3489bbdbfa2a3f64/w/3f0205ef714fcd93cd075bf0/e/03979e1b762d255a4018c414){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [Notre repo GitHub](https://github.com/Makerspace-Amiens/2026-MachineThatDraws-Groupe09/tree/main){: .btn .fs-5 .mb-4 .mb-md-0 }
 
-<iframe height="600" width="100%" src="https://modelembedder.net/embed?did=f36f8aaf3489bbdbfa2a3f64&wvm=v&wvmid=4daecf5db9d4894318d9cbdc&eid=03979e1b762d255a4018c414&elementType=ASSEMBLY" frameborder="0"></iframe>
+<iframe height="600" width="100%" src="https://modelembedder.net/embed?did=f36f8aaf3489bbdbfa2a3f64&wvm=v&wvmid=773935741690cad0a1664e7e&eid=03979e1b762d255a4018c414&elementType=ASSEMBLY" frameborder="0"></iframe>
 
 
 
