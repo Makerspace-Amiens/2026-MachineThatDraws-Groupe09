@@ -18,8 +18,21 @@ La carte intégrera :
 Voici le pcb de notre carte électronique:
 ![Image projet](../images/pcb.png)
 
+Mais également le shématique:
+![Image projet](../images/shemat.png)
+
 Voici le test de l'écran:
 
 <video width="50%" height="50%" controls>
         <source src="../images/videotestecrans.mp4" type="video/mp4" />
 </video>
+
+Nous avons ensuite souder la carte:
+
+![Image projet](../images/carte1.jpg)
+![Image projet](../images/carte2.jpg)
+![Image projet](../images/carte3.jpg)
+
+Et nous l'avons ensuite mis sur notre machine:
+
+
