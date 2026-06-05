@@ -31,5 +31,5 @@ Voici notre vidéo qui explique toute la première partie de la conception de no
 
 Voici notre vidéo de la machine fini et fonctionelle:
 
-https://youtube.com/shorts/lLi0QcDOQ9U?feature=share
+[Video](https://youtube.com/shorts/lLi0QcDOQ9U?feature=share)
 ---
