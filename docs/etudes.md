@@ -23,3 +23,13 @@ La machine a été pensée avec une symétrie parfaite de part et d'autre de l'a
 Afin de rendre le fonctionnement de notre programme plus visuel et compréhensible, l'algorigramme ci-dessous détaille le cycle de décision principal de la carte Arduino. Plutôt que d'exposer des lignes de code complexes, ce schéma se concentre sur l'essentiel : la logique d'exécution de la machine. Il décrit étape par étape comment le "cerveau" du traceur réceptionne une ligne de G-code, l'analyse, puis la traduit instantanément en actions mécaniques concrètes, qu'il s'agisse d'actionner le servomoteur pour manipuler le stylo, ou de calculer les coordonnées pour déplacer le chariot. Il résume ainsi la boucle fondamentale qui permet de passer du fichier numérique au dessin physique.
 
 ![Image Algo](/images/algorigramme.png)
+
+Nous avons également un script Python qui convertit l'image en G-code en appliquant une succession de traitements mathématiques. Dans un premier temps, l'image est simplifiée en noir et blanc (binarisation) afin d'en extraire les contours sous forme de coordonnées géométriques. Ces trajectoires sont ensuite traduites en instructions physiques précises (levée, descente et déplacement du stylo). L'efficacité de ce processus repose sur l'interpolation vectorielle : n'ayant aucune vision globale du dessin final, la machine exécute rigoureusement une séquence de "points à relier". En découpant les courbes complexes en une multitude de petits segments rectilignes successifs, le système permet aux moteurs mécaniques de restituer des trajectoires fluides et de reproduire fidèlement l'élégance du tracé original.
+
+# FluidNC et UGS
+
+Au début du projet, nous utilisions une carte classique (une Arduino) avec le logiciel UGS. C'était un très bon point de départ, mais cela nous obligeait à garder l'ordinateur branché en permanence avec un câble pour envoyer le dessin à la machine. De plus, à chaque fois que nous voulions changer un petit réglage mécanique, il fallait modifier et réinstaller un code informatique assez complexe. Pour rendre le projet plus moderne et pratique, nous avons donc décidé de remplacer l'Arduino par une petite carte beaucoup plus puissante : l'ESP32.
+
+L'avantage majeur de cette nouvelle carte est sa simplicité de configuration : il n'y a plus besoin de programmer ou de réinstaller du code complexe. L'intégralité des réglages de la machine s'effectue simplement en éditant un petit fichier texte que l'on dépose dans la mémoire de la carte. De plus, grâce au Wi-Fi intégré, la machine possède sa propre interface web. On peut s'y connecter directement depuis un simple navigateur internet pour contrôler la machine, envoyer les fichiers de dessin et lancer les tracés entièrement sans fil, ce qui est très pratique.
+
+
