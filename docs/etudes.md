@@ -21,3 +21,5 @@ La machine a été pensée avec une symétrie parfaite de part et d'autre de l'a
 # Code
 
 Afin de rendre le fonctionnement de notre programme plus visuel et compréhensible, l'algorigramme ci-dessous détaille le cycle de décision principal de la carte Arduino. Plutôt que d'exposer des lignes de code complexes, ce schéma se concentre sur l'essentiel : la logique d'exécution de la machine. Il décrit étape par étape comment le "cerveau" du traceur réceptionne une ligne de G-code, l'analyse, puis la traduit instantanément en actions mécaniques concrètes, qu'il s'agisse d'actionner le servomoteur pour manipuler le stylo, ou de calculer les coordonnées pour déplacer le chariot. Il résume ainsi la boucle fondamentale qui permet de passer du fichier numérique au dessin physique.
+
+![Image Algo](/images/algorigramme.png)
