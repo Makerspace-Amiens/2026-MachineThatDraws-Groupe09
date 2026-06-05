@@ -29,5 +29,7 @@ Voici notre vidéo qui explique toute la première partie de la conception de no
         <source src="images/videos1.mp4" type="video/mp4" />
 </video>
 
-Voici notre vidéo de la machine fini et fonctionelle
+Voici notre vidéo de la machine fini et fonctionelle:
+
+https://youtube.com/shorts/lLi0QcDOQ9U?feature=share
 ---
