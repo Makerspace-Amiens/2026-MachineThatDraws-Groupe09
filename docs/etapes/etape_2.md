@@ -29,4 +29,6 @@ L'assemblage
 
 - Tension insuffisante : le relâchement de la courroie entraînait des dysfonctionnements et un manque de précision lors des déplacements de la machine.
 
-- tete frésé utilisé au lieu des tete bombé
+- Choix de la visserie : des vis à tête fraisée ont été utilisées en lieu et place des vis à tête bombée prévues initialement.
+
+- Défaut de conception du mécanisme de levage : la pièce servant à soulever le stylo a été modélisée à l'envers, ce qui a nécessité une révision complète de son orientation.
