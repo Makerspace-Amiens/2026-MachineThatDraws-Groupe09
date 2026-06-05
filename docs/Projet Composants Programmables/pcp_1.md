@@ -35,4 +35,4 @@ Nous avons ensuite souder la carte:
 
 Et nous l'avons ensuite mis sur notre machine:
 
-
+![Image projet](../images/carte4.jpg)
