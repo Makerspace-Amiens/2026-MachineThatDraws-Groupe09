@@ -5,7 +5,7 @@ parent: Projet composants
 nav_order: 1
 ---
 
-Ce projet s’inscrit dans la continuité du projet Machine That Draws que vous avez réalisé précédemment. L’objectif est de concevoir et fabriquer une carte électronique dédiée pour remplacer le contrôleur de drivers.
+Ce projet s’inscrit dans la continuité du projet Machine That Draws qu'on a réalisé précédemment. L’objectif est de concevoir et fabriquer une carte électronique dédiée pour remplacer le contrôleur de drivers.
 
 La carte intégrera :
 
