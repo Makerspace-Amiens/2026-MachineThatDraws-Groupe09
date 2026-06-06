@@ -37,5 +37,5 @@ Dans le second semestre,notre machine devra donc :
 * pouvoir deplacer les 2 axes (x,y)
 * deplacer le stylo avec un systeme qui lève et qui baisse le stylo
 * dessiner un dessin vectoriel 
-* tout avec un matériel limité qui se trouve dans [Préparation des Matériaux
-](https://makerspace-amiens-2025-26.github.io/MachineThatDraws-Groupe09/etapes/etape_1.html)
+* tout avec un matériel limité qui se trouve dans Préparation des Matériaux
+
