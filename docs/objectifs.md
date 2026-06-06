@@ -38,4 +38,4 @@ Dans le second semestre,notre machine devra donc :
 * deplacer le stylo avec un systeme qui lève et qui baisse le stylo
 * dessiner un dessin vectoriel 
 * tout avec un matériel limité qui se trouve dans [Préparation des Matériaux
-](/etapes/etape_1)
+](https://makerspace-amiens-2025-26.github.io/MachineThatDraws-Groupe09/etapes/etape_1.html)
