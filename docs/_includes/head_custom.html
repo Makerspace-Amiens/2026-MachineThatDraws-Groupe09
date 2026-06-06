@@ -1,39 +1,26 @@
 <style>
 
-/* --- 1. L'AMBIANCE GÉNÉRALE (Mode Sombre) --- */
 
-
-/* On applique un bleu nuit très profond (presque noir) sur tout le site */
 
 html, body, .main, .main-header, .main-content, .main-content-wrap, .site-header {
 
-background-color: #0f172a !important; /* Dark Slate Blue */
+background-color: #0f172a !important; 
 
-color: #e2e8f0 !important; /* Texte en gris très clair (presque blanc) pour la lisibilité */
+color: #e2e8f0 !important;
 
 }
 
 
-
-/* --- 2. LE MENU (Sidebar) --- */
-
-
-/* On le fait encore plus sombre pour créer de la profondeur */
 
 .side-bar {
 
-background-color: #020617 !important; /* Presque noir */
+background-color: #020617 !important; 
 
-border-right: 1px solid #1e293b; /* Une ligne de séparation subtile bleu foncé */
+border-right: 1px solid #1e293b; 
 
 }
 
 
-
-/* --- 3. LES ACCENTS (La touche "Surprise") --- */
-
-
-/* Titre du site en Cyan Électrique (Néon) */
 
 .site-title {
 
@@ -41,25 +28,23 @@ color: #38bdf8 !important;
 
 font-weight: bold;
 
-text-transform: uppercase; /* On met le titre en majuscules pour le style */
+text-transform: uppercase; 
 
-letter-spacing: 1px; /* On espace un peu les lettres */
+letter-spacing: 1px; 
 
 }
 
 
 
-/* Les liens du menu : Blanc cassé par défaut */
+
 
 .nav-list .nav-list-item .nav-list-link {
 
-color: #94a3b8 !important; /* Gris moyen */
+color: #94a3b8 !important; 
 
 }
 
 
-
-/* Quand on passe la souris ou qu'on est sur la page active : BOOM le Cyan revient */
 
 .nav-list .nav-list-item .nav-list-link:hover,
 
@@ -67,9 +52,9 @@ color: #94a3b8 !important; /* Gris moyen */
 
 color: #38bdf8 !important;
 
-border-left: 2px solid #38bdf8; /* Petite barre néon à gauche du lien */
+border-left: 2px solid #38bdf8; 
 
-padding-left: 10px; /* Petit décalage pour l'animation visuelle */
+padding-left: 10px; 
 
 background: transparent !important;
 
@@ -77,10 +62,10 @@ background: transparent !important;
 
 
 
-/* --- 4. TYPOGRAPHIE & CONTENU --- */
 
 
-/* Tous les titres (H1, H2...) en blanc pur pour ressortir */
+
+
 
 h1, h2, h3, h4, h5, h6 {
 
@@ -89,7 +74,7 @@ color: #f8fafc !important;
 }
 
 
-/* Les liens dans le texte (pas le menu) */
+
 
 .main-content a {
 
@@ -101,18 +86,16 @@ text-decoration: underline;
 
 
 
-/* On cache la recherche et la ligne du header comme demandé avant */
-
 .search, .search-input { display: none !important; }
 
 .main-header, .site-header { border-bottom: none !important; }
 
 
-/* (Bonus) Amélioration des tableaux et blocs de code pour le mode sombre */
+
 
 code {
 
-background-color: #1e293b !important; /* Fond des petits codes en bleu gris */
+background-color: #1e293b !important;
 
 color: #38bdf8 !important;
 
