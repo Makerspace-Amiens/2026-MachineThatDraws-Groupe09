@@ -9,15 +9,3 @@ has_children: true
 
 Bienvenue dans la section dédiée aux étapes de fabrication du projet du Core XY. Ici, vous trouverez des guides détaillés pour chaque étape du processus de fabrication.
 
-## Aperçu des Étapes
-
-Le processus de fabrication est divisé en plusieurs étapes clés :
-
-1. [Préparation des Matériaux](etape_1)
-2. [Assemblage](etape_2)
-
-
-
----
-
-

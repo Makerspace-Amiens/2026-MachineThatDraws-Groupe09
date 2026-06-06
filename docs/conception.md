@@ -7,7 +7,7 @@ title: Conception et prototypage
 ## Conception et prototypage
 
 
-En modélisant le support moteur, nous avons pensé à tout. des reliefs pour ancrer solidement le moteur et le châssis, mais aussi un passage dédié à la barre. Pour garantir la stabilité, nous avons ajouté un emplacement pour une vis qui viendra verrouiller cette barre définitivement.
+En modélisant le support moteur, nous avons pensé à tout : des reliefs pour ancrer solidement le moteur et le châssis, mais aussi un passage dédié à la barre. Pour garantir la stabilité, nous avons ajouté un emplacement pour une vis qui viendra verrouiller cette barre définitivement.
 
 <iframe height="300" width="100%" src="https://modelembedder.net/embed?did=f36f8aaf3489bbdbfa2a3f64&wvm=v&wvmid=61d336f414dadeb6b3e8d7c6&eid=3c6fddd9c049bbfc8b24ad66&elementType=PARTSTUDIO" frameborder="0"></iframe>
 
@@ -24,12 +24,12 @@ Voici la partie basse du support poulie. C'est ici que l'on vient insérer les b
 <iframe height="300" width="100%" src="https://modelembedder.net/embed?did=f36f8aaf3489bbdbfa2a3f64&wvm=v&wvmid=61d336f414dadeb6b3e8d7c6&eid=65323fbc4913439752731d74&elementType=PARTSTUDIO" frameborder="0"></iframe>
 
 
-Voici la pièce destinée à maintenir la tension de la courroie. Elle se fixe directement sur le maintien des rails (axe x) ; il suffit d'en coller deux l'une contre l'autre pour assurer un maintien efficace:
+Voici la pièce destinée à maintenir la tension de la courroie. Elle se fixe directement sur le maintien des rails (axe X) ; il suffit d'en coller deux l'une contre l'autre pour assurer un maintien efficace :
 
 <iframe height="300" width="100%" src="https://modelembedder.net/embed?did=f36f8aaf3489bbdbfa2a3f64&wvm=v&wvmid=61d336f414dadeb6b3e8d7c6&eid=5373c6b51d3778e474d00f37&elementType=PARTSTUDIO" frameborder="0"></iframe>
 
 
-Voici la pièce qui acceuille le bouton d'arret d'urgence:
+Voici la pièce qui accueille le bouton d'arrêt d'urgence :
 
 <iframe height="300" width="100%" src="https://modelembedder.net/embed?did=f36f8aaf3489bbdbfa2a3f64&wvm=v&wvmid=61d336f414dadeb6b3e8d7c6&eid=84648452c4475d3621f681b1&elementType=PARTSTUDIO" frameborder="0"></iframe>
 
@@ -55,4 +55,3 @@ Cet élément sert de système de fixation. Il garantit la stabilité et l'immob
 Ce composant, couplé au servomoteur, assure l'élévation de l'outil de traçage. Ce mécanisme de levage est essentiel : il désengage la pointe du stylo de la surface de travail, autorisant ainsi les déplacements à vide de la machine.
 
 <iframe height="300" width="100%" src="https://modelembedder.net/embed?did=f36f8aaf3489bbdbfa2a3f64&wvm=v&wvmid=773935741690cad0a1664e7e&eid=57bff2e5da1b9d31d57f0d4a&elementType=PARTSTUDIO" frameborder="0"></iframe>
-

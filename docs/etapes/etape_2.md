@@ -7,7 +7,7 @@ nav_order: 2
 
 # Assemblage
 
-L'assemblage 
+L'assemblage est un moment crucial, car c'est à cette étape que l'on vérifie si les pièces que nous avons modélisées s'intègrent et fonctionnent réellement bien ensemble.
 
 ## Étapes d'Assemblage
 
@@ -17,18 +17,18 @@ L'assemblage
 
 ## Vérifications à Effectuer
 
-- Il faut bien regardé si les courroies sont bien tendu et droite, c'est le plus importants
-- Il faut vérifiez la stabilité et la solidité de l'assemblage.
+- Il faut bien regarder si les courroies sont bien tendues et droites, c'est le plus important.
+- Il faut vérifier la stabilité et la solidité de l'assemblage.
 - Tester si les axes font une ligne droite.
 
-## Problèmes Communs et Solutions
+## Problèmes Rencontrés et Solutions
 
 - Problème d'alignement de la courroie : nous avons dû modifier les pièces de maintien ainsi que la hauteur de plusieurs autres composants pour la redresser.
 
-- Défaut de conception des fixations : les supports initiaux de la courroie ont été repensés et agrandis. Cela nous a permis d'ajouter de nouveaux points de vissage pour ajuster l'angle et garantir une installation parfaitement droite.
+- Fixations d'origine mal pensées : on a dû revoir et agrandir les supports. Ça nous a permis de rajouter des vis pour bien régler l'angle et être sûrs qu'elle soit parfaitement droite.
 
-- Tension insuffisante : le relâchement de la courroie entraînait des dysfonctionnements et un manque de précision lors des déplacements de la machine.
+- Courroie pas assez tendue : avec ce relâchement, la machine n'en faisait qu'à sa tête et bougeait avec beaucoup moins de précision.
 
-- Choix de la visserie : des vis à tête fraisée ont été utilisées en lieu et place des vis à tête bombée prévues initialement.
+- Choix de la visserie : des vis à tête fraisée ont été utilisées au lieu des vis à tête bombée.
 
-- Défaut de conception du mécanisme de levage : la pièce servant à soulever le stylo a été modélisée à l'envers, ce qui a nécessité une révision complète de son orientation.
+- Erreur de conception du mécanisme de levage : la pièce qui soulève le stylo avait été modélisée à l'envers. Il a fallu revoir tout le modèle pour la remettre dans le bon sens.
