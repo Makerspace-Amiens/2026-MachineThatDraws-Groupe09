@@ -21,7 +21,11 @@ Bienvenue dans la documentation du projet Machine That Draws du groupe 9. Ce sit
 
 L'objectif de notre projet est de concevoir une machine capable de réaliser des dessins de manière autonome. Nous avons opté pour une architecture cartésienne : en utilisant un système de coordonnées basé sur des axes perpendiculaires, elle permet d'allier simplicité de construction et haute précision. 
 À noter que le site a été conçu sans l'aide de l'IA. 
-## Vidéo explicative
+## Vidéo explicative et poster
+
+Voici notre poster:
+
+![Image projet](/images/post.png)
 
 Voici notre vidéo qui explique toute la première partie de la conception de notre machine durant le S1 :
 
@@ -32,4 +36,6 @@ Voici notre vidéo qui explique toute la première partie de la conception de no
 Voici notre vidéo de la machine finie et fonctionnelle :
 
 [Vidéo](https://youtube.com/shorts/lLi0QcDOQ9U?feature=share)
+
+
 ---
